@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.top_page {
+	margin: 30px;
+}
+
+.header {
+	margin: 30px;
+}
+
+.header_logo {
+	padding: 10px;
+}
+
+.header_button {
+	padding: 10px;
+}
+
+.top_content {
+	margin: 30px;
+}
+
+.top_content_info {
+	padding: 10px;
+}
+
+.top_info_title {
+	margin: 30px;
+	padding: 10px;
+}
+
+.top_info_wrp_btn {
+	padding: 10px;
+	margin: 30px;
+}
+
+.top_info_btn {
+	padding: 10px;
+}
+
+.top_logos {
+	margin: 30px;
+}
