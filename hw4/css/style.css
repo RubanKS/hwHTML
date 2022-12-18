@@ -1,0 +1,159 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* .center {
+	max-width: 1915px;
+	width: 100%;
+	margin: 0 auto;
+} */
+
+.features {
+	background: #FFFFFF;
+	display: grid;
+	grid-template-columns: repeat(3, 310px);
+	gap: 60px;
+	justify-content: center;
+}
+
+.features_block {
+	padding: 140px 0 0 0;
+	margin: 0 60px 0 0;
+	max-width: 310px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.features_icon {
+	margin: 0 0 25px 0;
+	width: 70px;
+	height: 70px;
+	background-image: url(../img/icon_01.svg);
+}
+
+.features_block:nth-child(2)>.features_icon {
+	background-image: url(../img/icon_02.svg);
+}
+
+.features_block:nth-child(3)>.features_icon {
+	background-image: url(../img/icon_03.svg);
+}
+
+.features_title {
+	margin: 0 0 17px 0;
+	font-family: 'Gilroy-Bold';
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.features_text {
+	margin: 0 0 25px 0;
+	font-family: 'Gilroy-Regular';
+	font-size: 15px;
+	line-height: 22px;
+	color: #666666;
+}
+
+.features_more {
+	font-family: 'Gilroy-Bold';
+	font-size: 11px;
+	line-height: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.features_block_big {
+	padding: 100px 0 100px 0;
+	margin: 30px 0 0 40px;
+	max-width: 370px;
+	width: 100%;
+}
+
+.possibility {
+	background: #FAFAFA;
+}
+
+.possibility_title {
+	padding: 92px 0 0 0;
+	margin: 0 auto 19px auto;
+	font-family: 'Gilroy-Bold';
+	font-size: 45px;
+	line-height: 53px;
+	color: #000000;
+	text-align: center;
+}
+
+.possibility_text {
+	max-width: 682px;
+	width: 100%;
+	padding: 0 0 55px 0;
+	margin: 0 auto;
+	font-family: 'Gilroy-Regular';
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #666666;
+}
+
+.possibility_info {
+	display: grid;
+	grid-template-columns: repeat(3, 370px);
+	gap: 30px;
+	justify-content: center;
+	padding: 0 0 100px 0;
+}
+
+.possibility_block {
+
+	max-width: 370px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #FFFFFF;
+}
+
+.possibility_block_item {
+	margin: 0 0 25px 0;
+}
+
+.possibility_block_title {
+	margin: 0 0 22px 0;
+	font-family: 'Gilroy-Bold';
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #000000;
+}
+
+.possibility_block_text {
+	max-width: 310px;
+	width: 100%;
+	margin: 0 auto 39px auto;
+	font-family: 'Gilroy-Regular';
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center;
+	color: #AAAAAA;
+}
+
+.possibility_block_button {
+	margin: 0 auto 50px auto;
+	border: 15px 0;
+	font-family: 'Gilroy-Bold';
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+
+	width: 150px;
+	height: 50px;
+	background: #F25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border-radius: 50px;
+}
+
+.shadow {
+	background: #FFFFFF;
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
