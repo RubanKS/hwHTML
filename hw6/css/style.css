@@ -29,6 +29,7 @@
 	padding: 26px 240px 20px 0;
 	display: flex;
 	justify-content: flex-end;
+	max-width: 1600px;
 	width: 100%;
 	gap: 33px;
 }
@@ -67,14 +68,11 @@
 }
 
 .vertical_column {
-	content: "";
-	display: block;
-	width: 12px;
+	border-left: 12px solid #F16D7F;
 	height: 92px;
-	background-color: #F16D7F;
 	position: absolute;
-	top: 1px;
-	left: -27px;
+	margin-left: -22px;
+
 }
 
 .announcement_title {
@@ -107,11 +105,13 @@
 	background-color: #fff;
 	max-width: 1140px;
 	width: 100%;
-	padding: 65px 0 0 0;
+	padding: 65px 0 96px 0;
 	display: grid;
 	grid-template-columns: repeat(3, 360px);
 	gap: 30px;
 	align-items: center;
+	margin: 0 auto;
+
 
 }
 
@@ -139,21 +139,30 @@
 
 .accesories_item {}
 
+.txt_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 48px;
+}
+
 .title_1 {
 	font-family: 'Lato';
-	size: 30px;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+	color: #222222;
 }
 
 .paragraph_info {
 	font-family: 'Lato';
-	size: 14px;
-	display: flex;
-	justify-content: center;
-	margin-top: 6px;
-	margin-bottom: 48px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #9F9F9F;
 }
 
 .catalog {
@@ -171,23 +180,46 @@
 
 .item_001 {}
 
-.catalog_item_title {}
+.catalog_item_title {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 24px 0 16px 16px;
+}
 
 .catalog_item_text {
+	width: 314.74px;
+	height: 51px;
+
 	font-family: 'Lato';
-	size: 30px;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 0;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #5D5D5D;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0 0 16px 16px;
 }
 
 .price {
 	font-family: 'Lato';
-	size: 14px;
-	display: flex;
-	justify-content: center;
-	margin-top: 6px;
-	margin-bottom: 48px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #F16D7F;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 0 0 24px 16px;
 }
 
 .catalog_item_001 {
