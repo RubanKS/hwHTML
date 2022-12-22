@@ -172,7 +172,7 @@
 
 .catalog {
 	background-color: #F8F8F8;
-	margin: 0 auto 48px auto;
+	/* margin: 0 auto 48px auto; */
 	width: 100%;
 	display: grid;
 	grid-template-columns: 360px 360px 360px;
@@ -262,8 +262,10 @@
 }
 
 .catalog_show_all {
-
-	padding: 15px 39px;
+	padding-top: 48px;
+	padding-bottom: 60px;
+	background-color: #F8F8F8;
+	/* padding: 15px 39px; */
 }
 
 .catalog_show_all_button {
