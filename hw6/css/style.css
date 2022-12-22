@@ -111,7 +111,7 @@
 
 .category {
 	background-color: #F8F8F8;
-	padding: 65px 0 96px 0;
+	padding: 65px 0 56px 0;
 	display: grid;
 	grid-template-columns: repeat(3, 360px);
 	grid-gap: 30px;
@@ -119,6 +119,36 @@
 	margin: 0 auto;
 
 
+}
+
+.center_pic {
+	margin-top: -158px;
+}
+
+.category_info {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #FFFFFF;
+	text-transform: uppercase
+}
+
+.category_for {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #F16D7F;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
 }
 
 .category_women {}
@@ -135,12 +165,35 @@
 
 .category_accesories {
 	grid-column: span 3;
-	grid-row: span 1;
+	margin: 108px 0 0 0;
+}
+
+.category_info_accesories {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #FFFFFF;
+	text-transform: uppercase;
+
+	margin-top: -116px;
+}
+
+.category_for_accesories {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #F16D7F;
+	text-transform: uppercase;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	gap: 60px;
-	max-width: 1140px;
 }
 
 .accesories_item {}
@@ -152,6 +205,7 @@
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 48px;
+	padding-top: 96px;
 }
 
 .catalog_title {
