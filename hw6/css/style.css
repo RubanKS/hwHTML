@@ -16,8 +16,8 @@
 .header {
 	background: #222222;
 	display: flex;
-	padding-left: calc(50% - 800px);
-	padding-right: calc(50% - 800px)
+	/* padding-left: calc(50% - 800px);
+	padding-right: calc(50% - 800px) */
 }
 
 .header_logo {
@@ -37,7 +37,6 @@
 	padding: 26px 240px 20px 0;
 	display: flex;
 	justify-content: flex-end;
-	max-width: 1600px;
 	width: 100%;
 	gap: 33px;
 }
@@ -57,11 +56,9 @@
 .announcement {
 	background: #F1E4E6;
 	display: grid;
-	grid-template-columns: 800px 800px;
+	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
 	width: 100%;
-	/* padding-left: calc(50% - 800px);
-	padding-right: calc(50% - 800px); */
 }
 
 .announcement_pic {}
