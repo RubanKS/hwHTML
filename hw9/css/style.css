@@ -250,6 +250,13 @@ ul {
 	vertical-align: top;
 }
 
+.item_link {}
+
+.item_link:hover {
+	background: url(../img/background_grey.jpg);
+	opacity: 0.25;
+}
+
 .catalog_item_title {
 	font-family: 'Lato';
 	font-style: normal;
