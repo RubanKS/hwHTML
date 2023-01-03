@@ -245,7 +245,7 @@ ul {
 }
 
 .catalog_item {
-
+	background: #F8F8F8;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -350,6 +350,7 @@ ul {
 	background-image: url(../img/background.jpg);
 	/* max-width: 1600px;
 	max-height: 448px; */
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	margin: 0 auto;
